@@ -21,8 +21,9 @@ header .container{
 }
 header .logo{
     color: var(--vermelha);
-    font-family: 'Arial Black', Times;
+    font-family: 'Arial Black';
     font-size: 40px;
+    font-weight: bolder;
 }
 header nav a{
     text-decoration: none;
@@ -39,18 +40,11 @@ header nav a:hover{
     url('/DIO/carrefour-web-developer/Netflix/img/chicky.jpg');
     height: 400px;
     background-size:cover;
-    background-position: center center;
     background-position-x: center;
     background-position-y: center;
-    left: 0;
-    right: 0;
-    top: 0;
-    bottom: 0;
-    width: 100%;
-    
     display: flex;
     flex-direction:column;
-    justify-content: center;
+    justify-content:center;
     align-items: flex-start;
 }
 .container {
@@ -94,4 +88,9 @@ header nav a:hover{
 
 .botao i{
     margin-right: 8px;
+}
+.box-film {
+    height: 100%;
+    width: 100%;
+    display: block;
 }
